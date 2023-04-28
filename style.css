@@ -1,0 +1,75 @@
+.container-fluid{
+    text-align: center;
+    background-color:rgb(194, 50, 50);
+    height: 30%;
+    padding-left: 5px;
+    color: white;
+   font-family:"Arial";
+   background-image: linear-gradient(to left,rgb(112, 106, 16),rgb(17, 21, 85));
+  cursor: pointer;
+}
+
+h2{
+    padding-top: 50px;   
+    text-align: center;
+}
+
+
+#searchtext{
+    align-items: center;
+    text-indent: 5%;
+}
+.result{
+    display: none;
+    background-image: linear-gradient(to left,rgb(12, 66, 84),rgb(84, 10, 70));
+}
+#btn{
+    height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left,rgb(25, 183, 11),rgb(166, 162, 160)); 
+    }
+
+    #btn:hover {
+        padding-right: 25px;
+       color: rgb(39, 114, 89);
+    }
+
+#resetbtn{
+    height: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left,rgb(183, 11, 11),rgb(213, 211, 210)); 
+}
+
+#resetbtn:hover{
+    padding-right: 25px;
+}
+
+
+#searchtext{
+    display: inline-block;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,rgb(7, 55, 66),rgb(236, 235, 235)); 
+}
+
+.card-header{
+background-color: cornflowerblue;
+
+}
+
+.card-body{
+    background-color: lightyellow;
+
+}
+
+.container{
+    color:black;
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    
+}
+body{
+    background-image: linear-gradient(to left,rgb(16, 73, 82),rgb(107, 17, 82));    
+}
